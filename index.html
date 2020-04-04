@@ -4,14 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <title>Jewelorix</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geo&family=Luckiest+Guy&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <div id="game" class="game">
-    <div class="screen" id="splash-screen"></div>
-    <div class="screen" id="main-menu"></div>
-    <div class="screen" id="game-screen"></div>
-    <div class="screen" id="high-scores"></div>
+    <div class="screen splash-screen" data-screen="splash-screen">
+      <h1 class="logo">Jewelorix</h1>
+      <span class="continue">Continue...</span>
+    </div>
+    <div class="screen main-menu" data-screen="main-menu"></div>
+    <div class="screen game-screen" data-screen="game-screen"></div>
+    <div class="screen high-scores" data-screen="high-scores"></div>
   </div>
 
   <script src="js/game.js"></script>
